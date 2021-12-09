@@ -109,4 +109,6 @@ window.SocialShareButton =
         window.open(whatsapp_app_url, '_top')
       when "whatsapp_web"
         SocialShareButton.openUrl("https://web.whatsapp.com/send?text=#{title}%0A#{url}")
+      when "line"
+        SocialShareButton.openUrl("https://social-plugins.line.me/lineit/share?url=#{url}")
     false

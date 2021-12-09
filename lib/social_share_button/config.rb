@@ -30,6 +30,7 @@ module SocialShareButton
     # - telegram
     # - whatsapp_app
     # - whatsapp_web
+    # - line
     attr_accessor :allow_sites
 
     def initialize
